@@ -1,0 +1,115 @@
+/*Video*/
+
+.video_section{
+	background-image: url("../img/video-poster.jpg");
+	background-size: cover;
+	height: 641px;
+    max-width: 1250px;
+    width:100%;
+    background-position: center center;
+}
+
+div.video-js{
+	width:90%;
+	position:absolute;
+	z-index: 100;
+	top:200px;
+	left:5%;
+	display: none;
+}
+
+.video_section h3{
+	color:white;
+	padding:2px 0 2px 0;
+	text-align: center;
+
+
+}
+
+.overlay{
+	display: none; 
+	background-color: rgba(0,0,0,0.75); 
+	position: fixed; 
+	width: 100%; 
+	height: 100%; 
+	left: 0; 
+	top: 0; 
+	z-index: 50;
+
+}
+
+.play_button{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+
+}
+
+.btn{
+	background-color: #F5470B;
+	color:white;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+/*Categories*/
+.categories{
+	margin-top:8%;
+	margin-bottom: 2%;
+	padding: 0 2em 0 2em;
+
+}
+
+.bold_orange{
+	color:#FFA500;
+
+}
+
+.categories h4, h5, img{
+	text-align: center;
+}
+
+.small_pics{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*Accordion
+*/
+
+.accordion{
+	display:none;
+}
+
+.accordion img{
+	max-width: 1250px;
+    width:100%;
+
+}
+
+
+
+/*
+Final Up Arrow*/
+.down_arrow_pic{
+	margin-left: 50%;
+	padding: 18px 0 10px 0;
+
+}
+
+.up_arrow_pic{
+	margin-left: 50%;
+	padding: 18px 0 10px 0;
+	display:none;
+
+}
+
